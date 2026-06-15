@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", "Inter", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+html, body {
+  background-color: #04060a;
+  color: #f1f5f9;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* Custom scrollbars for Brutalist aesthetics */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #04060a;
+}
+::-webkit-scrollbar-thumb {
+  background: #111827;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1f2937;
+}
+
+/* Robert Wilson/Edward Hopper dramatic staging shadows and lines */
+.hopper-shadow {
+  box-shadow: 8px 8px 0px 0px #0e131f;
+}
+
+.hopper-shadow-cyan {
+  box-shadow: 8px 8px 0px 0px #06b6d4;
+}
+
+.hopper-shadow-amber {
+  box-shadow: 8px 8px 0px 0px #f59e0b;
+}
+
+.dramatic-gradient {
+  background: linear-gradient(180deg, #090d16 0%, #04060a 100%);
+}

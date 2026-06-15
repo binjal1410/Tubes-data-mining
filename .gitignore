@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.ipynb_checkpoints/
+student-dashboard/node_modules/
+student-dashboard/dist/
+student-dashboard/.env
